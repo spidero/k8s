@@ -1,6 +1,6 @@
 ```
 kubectl apply -f google-service.yaml
-kubectl exec -ti myapp-pod -- curl google-service
+kubectl exec -it myapp-pod -- curl google-service
 ```
 
 kubectl get svc
